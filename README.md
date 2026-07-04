@@ -51,7 +51,6 @@ I'm a **Full-Stack & Mobile Developer** from 🇸🇾 Syria, specializing in bui
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 
 **Database & Cloud**
 
@@ -97,8 +96,8 @@ I'm a **Full-Stack & Mobile Developer** from 🇸🇾 Syria, specializing in bui
     <td width="50%" valign="top">
       <h3>💻 <a href="https://github.com/SaadRimeh/LapGenius">LapGenius</a></h3>
       <p>A full-featured e-commerce marketplace for laptops with real-time chat between buyers and sellers, WebSocket-powered notifications, and Cloudinary image hosting.</p>
-      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white"/>
-      <img src="https://img.shields.io/badge/WebSockets-010101?style=flat&logo=socket.io&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
     </td>
   </tr>
   <tr>
