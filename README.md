@@ -132,22 +132,6 @@ I'm a **Full-Stack & Mobile Developer** from 🇸🇾 Syria, specializing in bui
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SaadRimeh&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SaadRimeh&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SaadRimeh&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SaadRimeh&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies"/>
-</div>
-
----
 
 ## 📈 Activity Graph
 
