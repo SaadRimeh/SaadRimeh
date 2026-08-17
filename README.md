@@ -133,15 +133,7 @@ I'm a **Full-Stack & Mobile Developer** from 🇸🇾 Syria, specializing in bui
 ---
 
 
-## 📈 Activity Graph
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SaadRimeh&theme=tokyo-night&hide_border=true&bg_color=0D1117" width="100%"/>
-</div>
-
----
-
-<div align="center">
 
 ### 💡 *"Code is not just what I write — it's how I think."*
 
