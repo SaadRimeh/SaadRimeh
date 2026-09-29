@@ -43,7 +43,7 @@ A private, local-first personal operating system that brings tasks, study planni
 
 `React Native` `Expo` `TypeScript` `Expo Router` `Local-first`
 
-### [Salloum Barbershop](https://github.com/SaadRimeh/SaloumApp)
+### [Salloum Barbershop](https://github.com/SaadRimeh/SaloumApp) · [Live app](https://saloum.onrender.com)
 
 A bilingual Arabic/English mobile app for appointments and product reservations, with authentication, dark mode, and complete RTL/LTR layout support.
 
