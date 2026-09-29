@@ -1,142 +1,91 @@
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Saad%20Rimeh&fontSize=62&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Mobile%20%26%20Full-Stack%20Developer&descAlignY=60&descSize=20" width="100%"/>
+# Saad Rimeh
 
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=React+Native+Developer+%F0%9F%93%B1;React+%26+TypeScript+Engineer+%E2%9A%9B%EF%B8%8F;Node.js+Backend+Developer+%F0%9F%9A%80;Full-Stack+Builder+%F0%9F%94%A8;From+Syria+%F0%9F%87%B8%F0%9F%87%BE+to+the+World" alt="Typing SVG" />
-</a>
+### Mobile & Full-Stack Developer
 
-<br/>
+I build polished, practical products across mobile, web, and desktop — from React Native applications to Node.js APIs and privacy-first developer tools.
 
-<!-- Social Badges -->
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white)](https://saadrimeh.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saad-rimeh)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SaadRimeh)
+Based in Syria · Open to freelance work and collaboration
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=vercel&logoColor=white)](https://saadrimeh.github.io/portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saad-rimeh)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:saad.rimeh.01@gmail.com)
 
 </div>
 
----
+## About
 
-## 👨‍💻 About Me
+My work focuses on cross-platform product development, clean user experiences, and dependable backend systems. I enjoy taking an idea from interface design to API architecture, database modeling, and deployment.
 
-I'm a **Full-Stack & Mobile Developer** from 🇸🇾 Syria, specializing in building polished, production-ready applications across **mobile** and **web** platforms. I love crafting seamless user experiences — from pixel-perfect UIs to robust backend APIs.
+- Building mobile products with **React Native, Expo, and TypeScript**
+- Developing REST APIs with **Node.js, Express, PostgreSQL, and MongoDB**
+- Exploring **local-first software, offline AI, and desktop tooling**
+- Interested in products that solve real problems in education, productivity, and personal finance
 
-- 🔭 &nbsp;Currently building cross-platform mobile apps with **React Native**
-- ⚛️ &nbsp;Crafting modern web experiences with **React** & **TypeScript**
-- 🌐 &nbsp;Designing scalable REST APIs with **Node.js** & **Express**
-- 🚀 &nbsp;Always learning — exploring real-time systems, cloud deployment & clean architecture
-- 🌍 &nbsp;Open to freelance projects and collaboration
+## Selected work
 
----
+### [RuScholar TMA](https://github.com/SaadRimeh/RuScholar-TMA) · [Live app](https://ru-scholar-tma.vercel.app)
 
-## 🛠️ Tech Stack
+An academic translation and learning platform for international students in Russia, delivered as a Telegram bot and Mini App. It combines contextual translation, terminology extraction, and spaced repetition in one workflow.
 
-<div align="center">
+`TypeScript` `React` `Node.js` `Express` `MongoDB` `Telegram Mini Apps` `Docker`
 
-**Mobile**
+### [JS Nexus](https://github.com/SaadRimeh/Js-Nexus)
 
-![React Native](https://img.shields.io/badge/React_Native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+An offline-first JavaScript desktop IDE with Monaco Editor, dual execution modes, an embedded terminal, Git integration, an event-loop visualizer, and a local Ollama-powered assistant.
 
-**Frontend**
+`Electron` `React` `Monaco Editor` `TypeScript` `Ollama` `Vite`
 
-![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+### [Wateera](https://github.com/SaadRimeh/Wateera)
 
-**Backend**
+A private, local-first personal operating system that brings tasks, study planning, fitness, career goals, medication routines, and finance tracking into one mobile experience.
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white)
+`React Native` `Expo` `TypeScript` `Expo Router` `Local-first`
 
-**Database & Cloud**
+### [Salloum Barbershop](https://github.com/SaadRimeh/SaloumApp)
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+A bilingual Arabic/English mobile app for appointments and product reservations, with authentication, dark mode, and complete RTL/LTR layout support.
 
-**Tools**
+`React Native` `Expo` `TypeScript` `Clerk` `REST API` `i18n`
 
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSockets-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+### [React Native Wallet](https://github.com/SaadRimeh/React-Native-wallet)
 
-</div>
+A full-stack personal finance app for tracking income, expenses, categories, and account summaries across iOS, Android, and web.
 
----
+`React Native` `Expo` `Node.js` `Express` `PostgreSQL` `Clerk`
 
-## 🚀 Featured Projects
+## Technology
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧠 <a href="https://github.com/SaadRimeh/Js-Nexus">JS Nexus</a></h3>
-      <p>A fully-featured browser-based JavaScript IDE with syntax highlighting, an integrated terminal, real-time AI code completion powered by Ollama, and a zero-config offline AI setup flow.</p>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
-      <img src="https://img.shields.io/badge/AI_Powered-FF6B6B?style=flat"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📱 <a href="https://github.com/SaadRimeh/SaloumApp">Saloum App</a></h3>
-      <p>A cross-platform mobile application built with React Native and TypeScript, featuring a clean modern UI and seamless navigation experience.</p>
-      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black"/>
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>✈️ <a href="https://github.com/SaadRimeh/fullstack-travelwebsite">Travel Booking Platform</a></h3>
-      <p>Full-stack travel website with a dedicated <a href="https://github.com/SaadRimeh/Travel-Booking-Backend-API">REST API backend</a>. Features booking flows, user authentication, and a complete reservation management system. (⭐ 3 stars across both repos)</p>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💻 <a href="https://github.com/SaadRimeh/LapGenius">LapGenius</a></h3>
-      <p>A full-featured e-commerce marketplace for laptops with real-time chat between buyers and sellers, WebSocket-powered notifications, and Cloudinary image hosting.</p>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💬 <a href="https://github.com/SaadRimeh/Chat_App_FullStack">Full-Stack Chat App</a></h3>
-      <p>Real-time full-stack chat application with live messaging, read receipts, and user presence indicators — built from the ground up.</p>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
-      <img src="https://img.shields.io/badge/WebSockets-010101?style=flat&logo=socket.io&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>💰 <a href="https://github.com/SaadRimeh/MoneyPilot">MoneyPilot</a></h3>
-      <p>A personal finance management app built with TypeScript, helping users track expenses, manage budgets, and visualize their financial health.</p>
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎓 <a href="https://github.com/SaadRimeh/Study-Zoom">Study Zoom</a></h3>
-      <p>An online learning platform connecting students and instructors, featuring video sessions, course management, and interactive dashboards.</p>
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"/>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏫 <a href="https://github.com/SaadRimeh/institute-management-system">Institute Management System</a></h3>
-      <p>A comprehensive academic management system for institutions, handling student records, course scheduling, and administrative workflows.</p>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
-    </td>
-  </tr>
-</table>
+**Languages**
 
----
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111827)
 
+**Frontend & mobile**
 
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white)
 
+**Backend & data**
 
-### 💡 *"Code is not just what I write — it's how I think."*
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-111827?style=flat-square&logo=express&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+**Tools & delivery**
 
-</div>
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+## Let's connect
+
+I am open to freelance projects, product collaborations, and conversations about mobile or full-stack development.
+
+- [Portfolio](https://saadrimeh.github.io/portfolio/)
+- [LinkedIn](https://www.linkedin.com/in/saad-rimeh)
+- [Email](mailto:saad.rimeh.01@gmail.com)
