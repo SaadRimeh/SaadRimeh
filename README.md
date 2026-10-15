@@ -63,6 +63,16 @@ I'm **Saad Rimeh**, a mobile and full-stack developer focused on useful products
 
 ## 03 / Starting grid
 
+<div align="center">
+
+![Animated Formula One car racing through Saad's project circuit](./assets/project-circuit.svg)
+
+<sub>FOLLOW THE CAR // EACH CHECKPOINT IS A SHIPPED PRODUCT</sub>
+
+</div>
+
+<br>
+
 ### `P01` &nbsp; RuScholar TMA
 
 > **Helping international students navigate academic life in Russia.**
