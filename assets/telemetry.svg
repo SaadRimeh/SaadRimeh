@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="210" viewBox="0 0 1280 210" role="img" aria-labelledby="title desc">
+  <title id="title">Animated developer telemetry panel</title>
+  <desc id="desc">A Formula One inspired telemetry dashboard showing product engineering signals.</desc>
+  <defs>
+    <linearGradient id="redLine" x1="0" x2="1">
+      <stop stop-color="#ff3045"/>
+      <stop offset="1" stop-color="#ff6b7b"/>
+    </linearGradient>
+    <linearGradient id="greenLine" x1="0" x2="1">
+      <stop stop-color="#43f0b0"/>
+      <stop offset="1" stop-color="#68ffd0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#1a1f28" stroke-width="1"/>
+    </pattern>
+    <clipPath id="chartClip"><rect x="350" y="55" width="560" height="116" rx="4"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="210" rx="12" fill="#090b0e"/>
+  <rect x="1" y="1" width="1278" height="208" rx="11" fill="none" stroke="#252a34"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="30" y="31" fill="#8d96a6" font-size="11" letter-spacing="3">LIVE TELEMETRY</text>
+    <circle cx="185" cy="27" r="4" fill="#43f0b0">
+      <animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <text x="30" y="75" fill="#6d7686" font-size="10" letter-spacing="2">STACK</text>
+    <text x="30" y="104" fill="#f4f6f8" font-size="22" font-weight="700">FULL</text>
+    <text x="30" y="129" fill="#f4f6f8" font-size="22" font-weight="700">THROTTLE</text>
+    <path d="M30 148H282" stroke="#252a34"/>
+    <path d="M30 148H282" stroke="url(#redLine)" stroke-width="4" stroke-linecap="round" stroke-dasharray="252" stroke-dashoffset="252">
+      <animate attributeName="stroke-dashoffset" values="252;0;0;252" keyTimes="0;.35;.8;1" dur="3.5s" repeatCount="indefinite"/>
+    </path>
+    <text x="30" y="180" fill="#8d96a6" font-size="10" letter-spacing="2">MOBILE • WEB • API</text>
+
+    <rect x="350" y="55" width="560" height="116" rx="4" fill="url(#grid)"/>
+    <text x="350" y="31" fill="#8d96a6" font-size="11" letter-spacing="3">DELIVERY CURVE</text>
+    <g clip-path="url(#chartClip)">
+      <path d="M330 155 C380 150 405 158 445 137 S510 90 552 112 S620 148 663 105 S728 61 770 84 S835 131 950 66" fill="none" stroke="#252a34" stroke-width="7" opacity=".7"/>
+      <path d="M330 155 C380 150 405 158 445 137 S510 90 552 112 S620 148 663 105 S728 61 770 84 S835 131 950 66" fill="none" stroke="url(#redLine)" stroke-width="3" stroke-linecap="round" stroke-dasharray="720" stroke-dashoffset="720">
+        <animate attributeName="stroke-dashoffset" values="720;0;0" keyTimes="0;.8;1" dur="4s" repeatCount="indefinite"/>
+      </path>
+      <circle r="5" fill="#f4f6f8">
+        <animateMotion dur="4s" repeatCount="indefinite" path="M330 155 C380 150 405 158 445 137 S510 90 552 112 S620 148 663 105 S728 61 770 84 S835 131 950 66"/>
+      </circle>
+    </g>
+    <text x="350" y="191" fill="#6d7686" font-size="10" letter-spacing="2">IDEA</text>
+    <text x="910" y="191" text-anchor="end" fill="#6d7686" font-size="10" letter-spacing="2">PRODUCTION</text>
+
+    <text x="970" y="31" fill="#8d96a6" font-size="11" letter-spacing="3">RACE DATA</text>
+    <text x="970" y="72" fill="#6d7686" font-size="10" letter-spacing="2">CRAFT</text>
+    <text x="1238" y="72" text-anchor="end" fill="#f4f6f8" font-size="14">PIXEL-PRECISE</text>
+    <text x="970" y="108" fill="#6d7686" font-size="10" letter-spacing="2">SYSTEM</text>
+    <text x="1238" y="108" text-anchor="end" fill="#f4f6f8" font-size="14">RELIABLE</text>
+    <text x="970" y="144" fill="#6d7686" font-size="10" letter-spacing="2">STATUS</text>
+    <text x="1238" y="144" text-anchor="end" fill="#43f0b0" font-size="14">OPEN TO WORK</text>
+    <rect x="970" y="165" width="268" height="5" rx="2.5" fill="#20252e"/>
+    <rect x="970" y="165" width="268" height="5" rx="2.5" fill="url(#greenLine)">
+      <animate attributeName="width" values="0;268;268;0" keyTimes="0;.35;.85;1" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="1238" y="191" text-anchor="end" fill="#6d7686" font-size="10" letter-spacing="2">READY TO DEPLOY</text>
+  </g>
+</svg>
