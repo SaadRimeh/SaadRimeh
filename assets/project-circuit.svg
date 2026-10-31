@@ -35,7 +35,7 @@
 
   <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
     <text x="32" y="34" fill="#f4f6f8" font-size="15" font-weight="700" letter-spacing="4">PROJECT CIRCUIT</text>
-    <text x="32" y="56" fill="#727c8c" font-size="10" letter-spacing="3">FIVE BUILDS // ONE ENGINEERING LAP</text>
+    <text x="32" y="56" fill="#727c8c" font-size="10" letter-spacing="3">SIX BUILDS // ONE ENGINEERING LAP</text>
     <circle cx="1080" cy="31" r="4" fill="#43f0b0">
       <animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>
     </circle>
@@ -86,6 +86,13 @@
       <text x="20" y="39" fill="#f4f6f8" font-size="14" font-weight="700">React Native Wallet</text>
       <animate attributeName="opacity" values=".55;.55;1;1;.55;.55" keyTimes="0;.73;.78;.88;.93;1" dur="16s" repeatCount="indefinite"/>
     </g>
+    <g transform="translate(350 588)">
+      <rect width="220" height="52" rx="6" fill="#0d1015" stroke="#303743"/>
+      <rect width="5" height="52" rx="2.5" fill="#ff3045"/>
+      <text x="20" y="20" fill="#ff3045" font-size="9" letter-spacing="2">P06 // EDTECH</text>
+      <text x="20" y="39" fill="#f4f6f8" font-size="14" font-weight="700">Skillium</text>
+      <animate attributeName="opacity" values=".55;.55;1;1;.55;.55" keyTimes="0;.88;.92;.975;.995;1" dur="16s" repeatCount="indefinite"/>
+    </g>
   </g>
 
   <g fill="#0b0e12" stroke="#ff3045" stroke-width="3">
@@ -94,6 +101,7 @@
     <circle cx="651" cy="281" r="9"><animate attributeName="r" values="9;9;14;9;9" keyTimes="0;.43;.48;.58;1" dur="16s" repeatCount="indefinite"/></circle>
     <circle cx="181" cy="346" r="9"><animate attributeName="r" values="9;9;14;9;9" keyTimes="0;.6;.65;.74;1" dur="16s" repeatCount="indefinite"/></circle>
     <circle cx="690" cy="490" r="9"><animate attributeName="r" values="9;9;14;9;9" keyTimes="0;.76;.81;.91;1" dur="16s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="616" r="9"><animate attributeName="r" values="9;9;14;9;9" keyTimes="0;.88;.93;.985;1" dur="16s" repeatCount="indefinite"/></circle>
   </g>
 
   <g transform="translate(106 621)">

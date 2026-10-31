@@ -131,6 +131,18 @@ A full-stack finance app for tracking income, expenses, categories, and account 
 
 [**VIEW REPOSITORY ↗**](https://github.com/SaadRimeh/React-Native-wallet)
 
+---
+
+### `P06` &nbsp; Skillium
+
+> **Learning, structured for progress.**
+
+A full-featured educational platform for managing academic content, courses, lectures, assessments, and student–tutor meetings through multi-role authorization. Sequential learning rules control lesson access based on exam outcomes, with retry workflows after failed results, secure private meeting links for every student, and documented REST APIs supporting web, mobile, and administrative applications.
+
+`Multi-role Authorization` `Sequential Learning` `Assessments` `Retry Workflows` `Private Meetings` `REST APIs`
+
+[**LIVE PLATFORM ↗**](https://portfolio-lime-eight-cb5c5ameei.vercel.app/)
+
 <br>
 
 ![Finish-line divider](./assets/finish-line.svg)
