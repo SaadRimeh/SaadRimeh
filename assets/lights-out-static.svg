@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="116" viewBox="0 0 1280 116" role="img" aria-labelledby="title desc">
+  <title id="title">Formula One starting lights animation</title>
+  <desc id="desc">Five red lights illuminate in sequence before the green launch line flashes.</desc>
+  <defs>
+    <linearGradient id="track" x1="0" x2="1">
+      <stop stop-color="#ff3045" stop-opacity="0" />
+      <stop offset=".5" stop-color="#ff3045" />
+      <stop offset="1" stop-color="#ff3045" stop-opacity="0" />
+    </linearGradient>
+    <filter id="redGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="greenGlow" x="-80%" y="-500%" width="260%" height="1100%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="116" rx="10" fill="#090b0e" />
+  <path d="M26 91H1254" stroke="#232832" />
+  <path d="M26 91H1254" stroke="url(#track)" stroke-width="2" stroke-dasharray="150 1078"></path>
+  <text x="34" y="31" fill="#8d96a6" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="4">FORMATION LAP</text>
+  <text x="1246" y="31" text-anchor="end" fill="#8d96a6" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="4">SYSTEMS CHECK</text>
+  <g transform="translate(496 15)">
+    <g fill="#151820" stroke="#343a46" stroke-width="2">
+      <rect x="0" y="0" width="48" height="58" rx="12" />
+      <rect x="60" y="0" width="48" height="58" rx="12" />
+      <rect x="120" y="0" width="48" height="58" rx="12" />
+      <rect x="180" y="0" width="48" height="58" rx="12" />
+      <rect x="240" y="0" width="48" height="58" rx="12" />
+    </g>
+    <g fill="#ff3045" filter="url(#redGlow)">
+      <circle cx="24" cy="29" r="11" opacity="1"></circle>
+      <circle cx="84" cy="29" r="11" opacity="1"></circle>
+      <circle cx="144" cy="29" r="11" opacity="1"></circle>
+      <circle cx="204" cy="29" r="11" opacity="1"></circle>
+      <circle cx="264" cy="29" r="11" opacity="1"></circle>
+    </g>
+  </g>
+  <g opacity="0" filter="url(#greenGlow)">
+    <path d="M520 87H760" stroke="#43f0b0" stroke-width="3" stroke-linecap="round" />
+    <circle cx="510" cy="87" r="4" fill="#43f0b0" />
+    <circle cx="770" cy="87" r="4" fill="#43f0b0" />
+  </g>
+  <text x="640" y="92" text-anchor="middle" fill="#cfd4dc" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="5">LIGHTS OUT // SHIP IT</text>
+</svg>

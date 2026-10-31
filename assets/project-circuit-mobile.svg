@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280" role="img" aria-labelledby="title desc">
+  <title id="title">Mobile project circuit</title>
+  <desc id="desc">A mobile-optimized vertical Formula One circuit connecting six featured projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10141a"/><stop offset="1" stop-color="#080a0d"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#1c222b"/></pattern>
+    <pattern id="flag" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#f2f4f7"/><path d="M0 0h7v7H0zM7 7h7v7H7z" fill="#0a0d11"/></pattern>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <path id="mobileTrack" d="M112 150 C420 90 620 130 590 260 C560 380 210 270 125 398 C42 525 555 450 602 590 C648 728 165 642 112 790 C60 937 538 856 602 1005 C653 1125 356 1198 128 1136"/>
+  </defs>
+
+  <rect width="720" height="1280" rx="18" fill="url(#bg)"/>
+  <rect x="18" y="82" width="684" height="1168" rx="12" fill="url(#grid)" opacity=".75"/>
+  <rect x="1" y="1" width="718" height="1278" rx="17" fill="none" stroke="#29303b"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="24" y="34" fill="#f4f6f8" font-size="17" font-weight="800" letter-spacing="3">PROJECT CIRCUIT</text>
+    <text x="24" y="60" fill="#737d8d" font-size="11" letter-spacing="2">MOBILE RACE VIEW // SIX BUILDS</text>
+    <circle cx="564" cy="31" r="5" fill="#43f0b0"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+    <text x="584" y="36" fill="#43f0b0" font-size="11" letter-spacing="2">LIVE</text>
+  </g>
+
+  <use href="#mobileTrack" fill="none" stroke="#ff3045" stroke-width="48" opacity=".13" filter="url(#glow)"/>
+  <use href="#mobileTrack" fill="none" stroke="#303641" stroke-width="36" stroke-linecap="round"/>
+  <use href="#mobileTrack" fill="none" stroke="#10141a" stroke-width="28" stroke-linecap="round"/>
+  <use href="#mobileTrack" fill="none" stroke="#647082" stroke-width="2" stroke-dasharray="11 17">
+    <animate attributeName="stroke-dashoffset" values="0;-28" dur=".75s" repeatCount="indefinite"/>
+  </use>
+
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <g transform="translate(78 122)"><rect width="310" height="76" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="76" rx="3" fill="#ff3045"/><text x="26" y="29" fill="#ff3045" font-size="13" letter-spacing="2">P01 // EDUCATION</text><text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">RuScholar TMA</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="0s" repeatCount="indefinite"/></g>
+    <g transform="translate(330 245)"><rect width="310" height="76" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="76" rx="3" fill="#ff3045"/><text x="26" y="29" fill="#ff3045" font-size="13" letter-spacing="2">P02 // DEVTOOLS</text><text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">JS Nexus</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="2s" repeatCount="indefinite"/></g>
+    <g transform="translate(74 372)"><rect width="310" height="76" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="76" rx="3" fill="#ff3045"/><text x="26" y="29" fill="#ff3045" font-size="13" letter-spacing="2">P03 // LOCAL-FIRST</text><text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">Wateera</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="4s" repeatCount="indefinite"/></g>
+    <g transform="translate(330 560)"><rect width="330" height="76" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="76" rx="3" fill="#ff3045"/><text x="26" y="29" fill="#ff3045" font-size="13" letter-spacing="2">P04 // BOOKING</text><text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">Salloum Barbershop</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="6s" repeatCount="indefinite"/></g>
+    <g transform="translate(70 754)"><rect width="330" height="76" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="76" rx="3" fill="#ff3045"/><text x="26" y="29" fill="#ff3045" font-size="13" letter-spacing="2">P05 // FINTECH</text><text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">React Native Wallet</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="8s" repeatCount="indefinite"/></g>
+    <g transform="translate(320 970)"><rect width="320" height="82" rx="9" fill="#101820" stroke="#967d2b"/><rect width="7" height="82" rx="3" fill="#ffcf45"/><text x="26" y="31" fill="#ffcf45" font-size="13" letter-spacing="2">P06 // EDTECH</text><text x="26" y="62" fill="#f4f6f8" font-size="24" font-weight="900">Skillium</text><animate attributeName="opacity" values=".65;1;.65" dur="12s" begin="10s" repeatCount="indefinite"/></g>
+  </g>
+
+  <g fill="#0b0e12" stroke="#ff3045" stroke-width="4">
+    <circle cx="112" cy="150" r="10"/><circle cx="590" cy="260" r="10"/><circle cx="125" cy="398" r="10"/><circle cx="602" cy="590" r="10"/><circle cx="112" cy="790" r="10"/><circle cx="602" cy="1005" r="11" stroke="#ffcf45"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M-22-11H-10L-5-6H9L16-3H25V3H16L9 6H-5L-10 11H-22V5H-12V-5H-22Z" fill="#ff3045" stroke="#ff8190"/>
+    <rect x="-14" y="-14" width="8" height="6" rx="2" fill="#090c10"/><rect x="-14" y="8" width="8" height="6" rx="2" fill="#090c10"/><rect x="9" y="-10" width="7" height="5" rx="2" fill="#090c10"/><rect x="9" y="5" width="7" height="5" rx="2" fill="#090c10"/>
+    <animateMotion dur="16s" repeatCount="indefinite" rotate="auto"><mpath href="#mobileTrack"/></animateMotion>
+  </g>
+
+  <g transform="translate(128 1136)"><rect x="-15" y="-28" width="30" height="56" fill="url(#flag)"/><text x="30" y="5" fill="#f4f6f8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="3">FINISH</text></g>
+  <text x="360" y="1230" text-anchor="middle" fill="#6f7989" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="3">FOLLOW THE CAR // EXPLORE THE BUILDS</text>
+</svg>

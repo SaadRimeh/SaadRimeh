@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mobile pit board</title>
+  <desc id="desc">A mobile-optimized Formula One pit board showing the current project and collaboration status.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11161d"/><stop offset="1" stop-color="#080a0d"/></linearGradient>
+    <linearGradient id="scan" x1="0" x2="1"><stop stop-color="#ff3045" stop-opacity="0"/><stop offset=".5" stop-color="#ff3045"/><stop offset="1" stop-color="#ff3045" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="720" height="520" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="718" height="518" rx="17" fill="none" stroke="#2a313c"/>
+  <path d="M24 72H696M360 72V412M24 242H696M24 412H696" stroke="#29303b"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="24" y="36" fill="#f4f6f8" font-size="16" font-weight="800" letter-spacing="3">PIT WALL // MOBILE</text>
+    <circle cx="570" cy="31" r="6" fill="#43f0b0" filter="url(#glow)"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+    <text x="590" y="37" fill="#43f0b0" font-size="12" letter-spacing="2">LIVE</text>
+
+    <text x="30" y="112" fill="#737d8d" font-size="12" letter-spacing="3">CURRENT LAP</text>
+    <text x="30" y="164" fill="#ff3045" font-size="36" font-weight="900">SKILLIUM</text>
+    <text x="30" y="199" fill="#c5cbd4" font-size="13" letter-spacing="2">P06 // EDTECH</text>
+
+    <text x="390" y="112" fill="#737d8d" font-size="12" letter-spacing="3">AVAILABILITY</text>
+    <text x="390" y="164" fill="#f4f6f8" font-size="36" font-weight="900">OPEN</text>
+    <text x="390" y="199" fill="#43f0b0" font-size="13" letter-spacing="2">FREELANCE &amp; COLLAB</text>
+
+    <text x="30" y="282" fill="#737d8d" font-size="12" letter-spacing="3">TIMEZONE</text>
+    <text x="30" y="334" fill="#f4f6f8" font-size="36" font-weight="900">UTC+3</text>
+    <text x="30" y="369" fill="#c5cbd4" font-size="13" letter-spacing="2">SYRIA // REMOTE</text>
+
+    <text x="390" y="282" fill="#737d8d" font-size="12" letter-spacing="3">STATUS</text>
+    <text x="390" y="334" fill="#f4f6f8" font-size="36" font-weight="900">READY</text>
+    <text x="390" y="369" fill="#43f0b0" font-size="13" letter-spacing="2">TO COLLABORATE</text>
+
+    <text x="24" y="454" fill="#737d8d" font-size="11" letter-spacing="3">SESSION</text>
+    <g fill="#f4f6f8" font-size="20" font-weight="700">
+      <text x="126" y="455">00:00.000<animate attributeName="opacity" values="1;1;0;0;0" keyTimes="0;.26;.27;.99;1" dur="6s" repeatCount="indefinite"/></text>
+      <text x="126" y="455" opacity="0">00:07.512<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.26;.27;.62;.63" dur="6s" repeatCount="indefinite"/></text>
+      <text x="126" y="455" opacity="0">00:16.240<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.62;.63;.98;1" dur="6s" repeatCount="indefinite"/></text>
+    </g>
+    <text x="696" y="455" text-anchor="end" fill="#43f0b0" font-size="11" letter-spacing="3">GREEN FLAG</text>
+    <text x="24" y="496" fill="#697384" font-size="10" letter-spacing="2">BUILD • SHIP • REFINE</text>
+    <text x="696" y="496" text-anchor="end" fill="#697384" font-size="10" letter-spacing="2">SR-01</text>
+  </g>
+  <rect x="0" y="410" width="160" height="2" fill="url(#scan)"><animate attributeName="x" values="-160;720" dur="2.4s" repeatCount="indefinite"/></rect>
+</svg>

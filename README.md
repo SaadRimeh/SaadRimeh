@@ -1,6 +1,9 @@
 <div align="center">
 
-![Saad Rimeh — Mobile and Full-Stack Developer. Precision in the interface. Power under the hood.](./assets/race-control.gif)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/race-control-preview.png">
+  <img src="./assets/race-control.gif" alt="Saad Rimeh — Mobile and Full-Stack Developer. Precision in the interface. Power under the hood." width="100%">
+</picture>
 
 <br>
 
@@ -10,7 +13,10 @@
 
 <br>
 
-![Animated Formula One starting lights](./assets/lights-out.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/lights-out-static.svg">
+  <img src="./assets/lights-out.svg" alt="Animated Formula One starting lights" width="100%">
+</picture>
 
 **DRIVER 01 // MOBILE & FULL-STACK ENGINEER**
 
@@ -20,6 +26,15 @@ to the APIs, data models, and deployment systems running under the bodywork.
 `SYRIA` &nbsp;•&nbsp; `AVAILABLE FOR FREELANCE` &nbsp;•&nbsp; `OPEN TO COLLABORATION`
 
 </div>
+
+<br>
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="./assets/pit-board-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/pit-board-static.svg">
+  <source media="(max-width: 640px)" srcset="./assets/pit-board-mobile.svg">
+  <img src="./assets/pit-board.svg" alt="Formula One pit board showing current project, availability, timezone, and collaboration status" width="100%">
+</picture>
 
 <br>
 
@@ -36,7 +51,10 @@ I'm **Saad Rimeh**, a mobile and full-stack developer focused on useful products
 
 <br>
 
-![Animated engineering telemetry](./assets/telemetry.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/telemetry-static.svg">
+  <img src="./assets/telemetry.svg" alt="Animated engineering telemetry" width="100%">
+</picture>
 
 <br>
 
@@ -65,7 +83,28 @@ I'm **Saad Rimeh**, a mobile and full-stack developer focused on useful products
 
 <div align="center">
 
-![Animated Formula One car racing through Saad's project circuit](./assets/project-circuit.svg)
+### Featured podium
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/project-podium-static.svg">
+  <img src="./assets/project-podium.svg" alt="Featured project podium with Skillium, RuScholar TMA, and JS Nexus" width="100%">
+</picture>
+
+[![Skillium Live](https://img.shields.io/badge/1ST_SKILLIUM-LIVE-FFCF45?style=for-the-badge&labelColor=171B23)](https://portfolio-lime-eight-cb5c5ameei.vercel.app/)
+[![Skillium Showcase](https://img.shields.io/badge/VIEW-SHOWCASE-149DD7?style=for-the-badge&labelColor=171B23)](https://github.com/SaadRimeh/skillium-showcase)
+[![RuScholar](https://img.shields.io/badge/2ND_RUSCHOLAR-LIVE-C0C7D2?style=for-the-badge&labelColor=171B23)](https://ru-scholar-tma.vercel.app)
+[![JS Nexus](https://img.shields.io/badge/3RD_JS_NEXUS-CODE-C98955?style=for-the-badge&labelColor=171B23)](https://github.com/SaadRimeh/Js-Nexus)
+
+<br>
+
+### Full project circuit
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="./assets/project-circuit-mobile-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/project-circuit-static.svg">
+  <source media="(max-width: 640px)" srcset="./assets/project-circuit-mobile.svg">
+  <img src="./assets/project-circuit.svg" alt="Animated Formula One car racing through Saad's project circuit" width="100%">
+</picture>
 
 <sub>FOLLOW THE CAR // EACH CHECKPOINT IS A SHIPPED PRODUCT</sub>
 
@@ -81,6 +120,17 @@ An academic translation and learning platform delivered through a Telegram bot a
 
 `TypeScript` `React` `Node.js` `Express` `MongoDB` `Telegram Mini Apps` `Docker`
 
+<details>
+<summary><strong>CASE STUDY // ACADEMIC ACCESS</strong></summary>
+<br>
+
+**Problem** — international students need translation and study tools inside the communication channel they already use.<br>
+**Role** — full-stack product engineering across the learning interface, API, and data workflow.<br>
+**Key decision** — combine a Telegram bot with a Mini App so quick actions and richer study sessions share one system.<br>
+**Status** — live demo and public repository available.
+
+</details>
+
 [**VIEW REPOSITORY ↗**](https://github.com/SaadRimeh/RuScholar-TMA) &nbsp;·&nbsp; [**LIVE APP ↗**](https://ru-scholar-tma.vercel.app)
 
 ---
@@ -92,6 +142,17 @@ An academic translation and learning platform delivered through a Telegram bot a
 An offline-first desktop IDE with Monaco Editor, dual execution modes, an embedded terminal, Git integration, an event-loop visualizer, and a local assistant powered by Ollama.
 
 `Electron` `React` `Monaco Editor` `TypeScript` `Ollama` `Vite`
+
+<details>
+<summary><strong>CASE STUDY // OFFLINE DEVELOPMENT</strong></summary>
+<br>
+
+**Problem** — browser-based coding tools lose their value when the network disappears or private code must stay local.<br>
+**Role** — desktop product engineering across editor, execution, terminal, Git, and assistant workflows.<br>
+**Key decision** — make offline execution the default and integrate Ollama locally instead of depending on a hosted AI service.<br>
+**Status** — public repository available.
+
+</details>
 
 [**VIEW REPOSITORY ↗**](https://github.com/SaadRimeh/Js-Nexus)
 
@@ -105,6 +166,17 @@ A local-first personal operating system that brings tasks, study planning, fitne
 
 `React Native` `Expo` `TypeScript` `Expo Router` `Local-first`
 
+<details>
+<summary><strong>CASE STUDY // PERSONAL OPERATING SYSTEM</strong></summary>
+<br>
+
+**Problem** — personal routines become fragmented across disconnected productivity, health, study, and finance apps.<br>
+**Role** — mobile product architecture and implementation for one coordinated daily system.<br>
+**Key decision** — keep the experience local-first so private routines remain fast, resilient, and user-controlled.<br>
+**Status** — public repository available.
+
+</details>
+
 [**VIEW REPOSITORY ↗**](https://github.com/SaadRimeh/Wateera)
 
 ---
@@ -116,6 +188,17 @@ A local-first personal operating system that brings tasks, study planning, fitne
 An Arabic/English mobile app for appointments and product reservations, with authentication, dark mode, and complete RTL/LTR layout support.
 
 `React Native` `Expo` `TypeScript` `Clerk` `REST API` `i18n`
+
+<details>
+<summary><strong>CASE STUDY // BILINGUAL BOOKING</strong></summary>
+<br>
+
+**Problem** — appointment and product reservation flows must feel natural in both Arabic and English.<br>
+**Role** — cross-platform mobile engineering across authentication, booking, catalog, and localization.<br>
+**Key decision** — design RTL and LTR behavior as a core layout constraint rather than a late translation layer.<br>
+**Status** — live demo and public repository available.
+
+</details>
 
 [**VIEW REPOSITORY ↗**](https://github.com/SaadRimeh/SaloumApp) &nbsp;·&nbsp; [**LIVE APP ↗**](https://saloum.onrender.com)
 
@@ -129,6 +212,17 @@ A full-stack finance app for tracking income, expenses, categories, and account 
 
 `React Native` `Expo` `Node.js` `Express` `PostgreSQL` `Clerk`
 
+<details>
+<summary><strong>CASE STUDY // CROSS-PLATFORM FINANCE</strong></summary>
+<br>
+
+**Problem** — users need one consistent view of income and expenses across mobile and web.<br>
+**Role** — full-stack engineering across transaction flows, authentication, API design, and relational data.<br>
+**Key decision** — share the product model across platforms while keeping the backend responsible for trusted financial summaries.<br>
+**Status** — public repository available.
+
+</details>
+
 [**VIEW REPOSITORY ↗**](https://github.com/SaadRimeh/React-Native-wallet)
 
 ---
@@ -141,7 +235,18 @@ A full-featured educational platform for managing academic content, courses, lec
 
 `Multi-role Authorization` `Sequential Learning` `Assessments` `Retry Workflows` `Private Meetings` `REST APIs`
 
-[**LIVE PLATFORM ↗**](https://portfolio-lime-eight-cb5c5ameei.vercel.app/)
+<details>
+<summary><strong>CASE STUDY // PROGRESSION-DRIVEN LEARNING</strong></summary>
+<br>
+
+**Problem** — publishing lessons is not enough; access must respond to assessment results and student progress.<br>
+**Role** — end-to-end platform engineering across roles, academic content, assessments, meetings, and REST APIs.<br>
+**Key decision** — model lesson availability as progression state, with passed exams unlocking the next step and failed attempts activating a retry workflow.<br>
+**Status** — live platform; production source private; public showcase available.
+
+</details>
+
+[**VIEW SHOWCASE ↗**](https://github.com/SaadRimeh/skillium-showcase) &nbsp;·&nbsp; [**LIVE PLATFORM ↗**](https://portfolio-lime-eight-cb5c5ameei.vercel.app/)
 
 <br>
 

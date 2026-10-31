@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Saad Rimeh project circuit</title>
+  <desc id="desc">An animated Formula One car races through five project checkpoints on a winding circuit.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10141a" />
+      <stop offset="1" stop-color="#090b0e" />
+    </linearGradient>
+    <linearGradient id="trackGlow" x1="0" x2="1">
+      <stop stop-color="#ff3045" stop-opacity=".1" />
+      <stop offset=".5" stop-color="#ff3045" stop-opacity=".75" />
+      <stop offset="1" stop-color="#ff3045" stop-opacity=".1" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#171c24" stroke-width="1" />
+    </pattern>
+    <pattern id="flag" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="#f1f3f6" />
+      <path d="M0 0h8v8H0zM8 8h8v8H8z" fill="#0b0e12" />
+    </pattern>
+    <filter id="redGlow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="7" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="carGlow" x="-100%" y="-200%" width="300%" height="500%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <path id="circuit" d="M112 132 C285 54 470 68 620 137 S936 199 1097 122 C1163 90 1214 145 1160 205 C1045 332 803 210 650 281 C493 354 335 273 182 346 C79 395 111 474 220 486 C390 504 541 421 690 490 C844 561 1018 458 1123 546 C1186 599 1118 656 987 635 C778 602 529 669 320 616 C209 588 148 579 106 621" />
+  </defs>
+  <rect width="1280" height="720" rx="16" fill="url(#panel)" />
+  <rect x="1" y="1" width="1278" height="718" rx="15" fill="none" stroke="#252b35" />
+  <rect x="24" y="72" width="1232" height="620" rx="8" fill="url(#grid)" opacity=".72" />
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="32" y="34" fill="#f4f6f8" font-size="15" font-weight="700" letter-spacing="4">PROJECT CIRCUIT</text>
+    <text x="32" y="56" fill="#727c8c" font-size="10" letter-spacing="3">SIX BUILDS // ONE ENGINEERING LAP</text>
+    <circle cx="1080" cy="31" r="4" fill="#43f0b0"></circle>
+    <text x="1094" y="35" fill="#43f0b0" font-size="10" letter-spacing="2">RACE LIVE</text>
+    <text x="1244" y="35" text-anchor="end" fill="#727c8c" font-size="10" letter-spacing="2">LAP 01 / 01</text>
+  </g>
+  <use href="#circuit" fill="none" stroke="#ff3045" stroke-width="46" stroke-linecap="round" stroke-linejoin="round" opacity=".12" filter="url(#redGlow)" />
+  <use href="#circuit" fill="none" stroke="#303641" stroke-width="34" stroke-linecap="round" stroke-linejoin="round" />
+  <use href="#circuit" fill="none" stroke="#11151b" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" />
+  <use href="#circuit" fill="none" stroke="#596373" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 18"></use>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <g transform="translate(316 84)">
+      <rect width="190" height="52" rx="6" fill="#0d1015" stroke="#303743" />
+      <rect width="5" height="52" rx="2.5" fill="#ff3045" />
+      <text x="20" y="20" fill="#ff3045" font-size="9" letter-spacing="2">P01 // EDUCATION</text>
+      <text x="20" y="39" fill="#f4f6f8" font-size="14" font-weight="700">RuScholar TMA</text>
+    </g>
+    <g transform="translate(982 170)">
+      <rect width="206" height="52" rx="6" fill="#0d1015" stroke="#303743" />
+      <rect width="5" height="52" rx="2.5" fill="#ff3045" />
+      <text x="20" y="20" fill="#ff3045" font-size="9" letter-spacing="2">P02 // DEVTOOLS</text>
+      <text x="20" y="39" fill="#f4f6f8" font-size="14" font-weight="700">JS Nexus</text>
+    </g>
+    <g transform="translate(604 300)">
+      <rect width="190" height="52" rx="6" fill="#0d1015" stroke="#303743" />
+      <rect width="5" height="52" rx="2.5" fill="#ff3045" />
+      <text x="20" y="20" fill="#ff3045" font-size="9" letter-spacing="2">P03 // LOCAL-FIRST</text>
+      <text x="20" y="39" fill="#f4f6f8" font-size="14" font-weight="700">Wateera</text>
+    </g>
+    <g transform="translate(76 374)">
+      <rect width="218" height="52" rx="6" fill="#0d1015" stroke="#303743" />
+      <rect width="5" height="52" rx="2.5" fill="#ff3045" />
+      <text x="20" y="20" fill="#ff3045" font-size="9" letter-spacing="2">P04 // BOOKING</text>
+      <text x="20" y="39" fill="#f4f6f8" font-size="14" font-weight="700">Salloum Barbershop</text>
+    </g>
+    <g transform="translate(610 516)">
+      <rect width="220" height="52" rx="6" fill="#0d1015" stroke="#303743" />
+      <rect width="5" height="52" rx="2.5" fill="#ff3045" />
+      <text x="20" y="20" fill="#ff3045" font-size="9" letter-spacing="2">P05 // FINTECH</text>
+      <text x="20" y="39" fill="#f4f6f8" font-size="14" font-weight="700">React Native Wallet</text>
+    </g>
+    <g transform="translate(350 588)">
+      <rect width="220" height="52" rx="6" fill="#0d1015" stroke="#303743" />
+      <rect width="5" height="52" rx="2.5" fill="#ff3045" />
+      <text x="20" y="20" fill="#ff3045" font-size="9" letter-spacing="2">P06 // EDTECH</text>
+      <text x="20" y="39" fill="#f4f6f8" font-size="14" font-weight="700">Skillium</text>
+    </g>
+  </g>
+  <g fill="#0b0e12" stroke="#ff3045" stroke-width="3">
+    <circle cx="316" cy="99" r="9"></circle>
+    <circle cx="1092" cy="168" r="9"></circle>
+    <circle cx="651" cy="281" r="9"></circle>
+    <circle cx="181" cy="346" r="9"></circle>
+    <circle cx="690" cy="490" r="9"></circle>
+    <circle cx="320" cy="616" r="9"></circle>
+  </g>
+  <g transform="translate(106 621)">
+    <rect x="-16" y="-28" width="32" height="56" fill="url(#flag)" opacity=".9" />
+    <text x="28" y="4" fill="#f4f6f8" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="3">FINISH</text>
+  </g>
+  <g filter="url(#carGlow)" transform="translate(112 132)">
+    <path d="M-20-10H-9L-5-6H8L15-3H23V3H15L8 6H-5L-9 10H-20V5H-11V-5H-20Z" fill="#ff3045" stroke="#ff7585" stroke-width="1" />
+    <rect x="-13" y="-13" width="8" height="6" rx="2" fill="#0b0e12" stroke="#8791a0" />
+    <rect x="-13" y="7" width="8" height="6" rx="2" fill="#0b0e12" stroke="#8791a0" />
+    <rect x="8" y="-10" width="7" height="5" rx="2" fill="#0b0e12" stroke="#8791a0" />
+    <rect x="8" y="5" width="7" height="5" rx="2" fill="#0b0e12" stroke="#8791a0" />
+    <circle cx="1" cy="0" r="3" fill="#f4f6f8" />
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="32" y="686" fill="#687282" font-size="9" letter-spacing="2">PRECISION IN THE INTERFACE</text>
+    <text x="1248" y="686" text-anchor="end" fill="#687282" font-size="9" letter-spacing="2">POWER UNDER THE HOOD</text>
+  </g>
+</svg>
