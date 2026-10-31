@@ -1,62 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
-  <title id="title">Featured project podium</title>
-  <desc id="desc">Skillium, RuScholar TMA, and JS Nexus presented as the top three featured projects.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="380" viewBox="0 0 900 380" role="img" aria-labelledby="title desc">
+  <title id="title">Featured projects</title>
+  <desc id="desc">RuScholar TMA, JS Nexus, and Skillium presented with equal visual emphasis.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#10141a"/>
       <stop offset="1" stop-color="#080a0d"/>
     </linearGradient>
-    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#ffcf45"/><stop offset="1" stop-color="#fff0a3"/></linearGradient>
-    <linearGradient id="silver" x1="0" x2="1"><stop stop-color="#9ca6b5"/><stop offset="1" stop-color="#edf1f6"/></linearGradient>
-    <linearGradient id="bronze" x1="0" x2="1"><stop stop-color="#b06b3b"/><stop offset="1" stop-color="#f1b27c"/></linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#202630" stroke-width="1"/></pattern>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#202630" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
-  <rect width="900" height="430" rx="18" fill="url(#bg)"/>
-  <rect width="900" height="430" rx="18" fill="url(#grid)" opacity=".45"/>
-  <rect x="1" y="1" width="898" height="428" rx="17" fill="none" stroke="#29303b"/>
+  <rect width="900" height="380" rx="18" fill="url(#bg)"/>
+  <rect width="900" height="380" rx="18" fill="url(#grid)" opacity=".45"/>
+  <rect x="1" y="1" width="898" height="378" rx="17" fill="none" stroke="#29303b"/>
 
   <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-    <text x="30" y="38" fill="#f4f6f8" font-size="14" font-weight="700" letter-spacing="4">PROJECT PODIUM</text>
-    <text x="870" y="38" text-anchor="end" fill="#6f7989" font-size="10" letter-spacing="3">FEATURED BUILDS // TOP 3</text>
+    <text x="30" y="38" fill="#f4f6f8" font-size="14" font-weight="700" letter-spacing="4">FEATURED BUILDS</text>
+    <text x="870" y="38" text-anchor="end" fill="#6f7989" font-size="10" letter-spacing="3">THREE PROJECTS // EQUAL FOCUS</text>
 
-    <g transform="translate(55 142)">
-      <rect width="240" height="155" rx="12" fill="#11161d" stroke="#3b434f"/>
-      <circle cx="120" cy="0" r="34" fill="url(#silver)" filter="url(#glow)"/>
-      <text x="120" y="10" text-anchor="middle" fill="#11151b" font-size="30" font-weight="900">2</text>
-      <text x="24" y="62" fill="#aeb7c4" font-size="10" letter-spacing="3">P01 // EDUCATION</text>
-      <text x="24" y="96" fill="#f4f6f8" font-size="22" font-weight="800">RuScholar TMA</text>
-      <text x="24" y="126" fill="#8e98a8" font-size="11">Academic learning inside Telegram</text>
-      <animate attributeName="opacity" values=".72;1;.72" dur="4.8s" begin="1.6s" repeatCount="indefinite"/>
+    <g transform="translate(35 105)">
+      <rect width="250" height="175" rx="12" fill="#11161d" stroke="#3b434f"/>
+      <circle cx="28" cy="0" r="8" fill="#ff3045" filter="url(#glow)"/>
+      <text x="24" y="42" fill="#ff5366" font-size="10" letter-spacing="3">P01 // EDUCATION</text>
+      <text x="24" y="78" fill="#f4f6f8" font-size="22" font-weight="800">RuScholar TMA</text>
+      <text x="24" y="108" fill="#8e98a8" font-size="11">Academic learning inside Telegram</text>
+      <path d="M24 136H226" stroke="#2b323d"/>
+      <text x="24" y="157" fill="#43f0b0" font-size="10" letter-spacing="2">LIVE // PUBLIC</text>
+      <animate attributeName="opacity" values=".76;1;.76" dur="4.8s" repeatCount="indefinite"/>
     </g>
 
-    <g transform="translate(330 92)">
-      <rect width="240" height="205" rx="12" fill="#131920" stroke="#8e7628"/>
-      <circle cx="120" cy="0" r="40" fill="url(#gold)" filter="url(#glow)"/>
-      <text x="120" y="11" text-anchor="middle" fill="#11151b" font-size="34" font-weight="900">1</text>
-      <text x="24" y="72" fill="#ffcf45" font-size="10" letter-spacing="3">P06 // EDTECH</text>
-      <text x="24" y="110" fill="#f4f6f8" font-size="28" font-weight="800">Skillium</text>
-      <text x="24" y="142" fill="#aab3c0" font-size="11">Progression-driven learning platform</text>
-      <text x="24" y="174" fill="#43f0b0" font-size="10" letter-spacing="2">LIVE // ACTIVE</text>
-      <animate attributeName="opacity" values=".78;1;.78" dur="3.2s" repeatCount="indefinite"/>
+    <g transform="translate(325 105)">
+      <rect width="250" height="175" rx="12" fill="#11161d" stroke="#3b434f"/>
+      <circle cx="28" cy="0" r="8" fill="#ff3045" filter="url(#glow)"/>
+      <text x="24" y="42" fill="#ff5366" font-size="10" letter-spacing="3">P02 // DEVTOOLS</text>
+      <text x="24" y="78" fill="#f4f6f8" font-size="22" font-weight="800">JS Nexus</text>
+      <text x="24" y="108" fill="#8e98a8" font-size="11">Offline-first JavaScript workspace</text>
+      <path d="M24 136H226" stroke="#2b323d"/>
+      <text x="24" y="157" fill="#aeb7c4" font-size="10" letter-spacing="2">CODE // PUBLIC</text>
+      <animate attributeName="opacity" values=".76;1;.76" dur="4.8s" begin="1.6s" repeatCount="indefinite"/>
     </g>
 
-    <g transform="translate(605 142)">
-      <rect width="240" height="155" rx="12" fill="#11161d" stroke="#65452f"/>
-      <circle cx="120" cy="0" r="34" fill="url(#bronze)" filter="url(#glow)"/>
-      <text x="120" y="10" text-anchor="middle" fill="#11151b" font-size="30" font-weight="900">3</text>
-      <text x="24" y="62" fill="#d58b55" font-size="10" letter-spacing="3">P02 // DEVTOOLS</text>
-      <text x="24" y="96" fill="#f4f6f8" font-size="22" font-weight="800">JS Nexus</text>
-      <text x="24" y="126" fill="#8e98a8" font-size="11">Offline-first JavaScript workspace</text>
-      <animate attributeName="opacity" values=".72;1;.72" dur="4.8s" begin="3.2s" repeatCount="indefinite"/>
+    <g transform="translate(615 105)">
+      <rect width="250" height="175" rx="12" fill="#11161d" stroke="#3b434f"/>
+      <circle cx="28" cy="0" r="8" fill="#ff3045" filter="url(#glow)"/>
+      <text x="24" y="42" fill="#ff5366" font-size="10" letter-spacing="3">P06 // EDTECH</text>
+      <text x="24" y="78" fill="#f4f6f8" font-size="22" font-weight="800">Skillium</text>
+      <text x="24" y="108" fill="#8e98a8" font-size="11">Progression-driven learning platform</text>
+      <path d="M24 136H226" stroke="#2b323d"/>
+      <text x="24" y="157" fill="#43f0b0" font-size="10" letter-spacing="2">LIVE // SHOWCASE</text>
+      <animate attributeName="opacity" values=".76;1;.76" dur="4.8s" begin="3.2s" repeatCount="indefinite"/>
     </g>
 
-    <text x="450" y="350" text-anchor="middle" fill="#737d8d" font-size="10" letter-spacing="3">ENGINEERED FOR REAL-WORLD USE</text>
-    <path d="M115 378H785" stroke="#2b323d"/>
-    <path d="M115 378H785" stroke="#ff3045" stroke-width="3" stroke-linecap="round" stroke-dasharray="120 550">
+    <text x="450" y="318" text-anchor="middle" fill="#737d8d" font-size="10" letter-spacing="3">DIFFERENT PRODUCTS // ONE ENGINEERING STANDARD</text>
+    <path d="M115 342H785" stroke="#2b323d"/>
+    <path d="M115 342H785" stroke="#ff3045" stroke-width="3" stroke-linecap="round" stroke-dasharray="120 550">
       <animate attributeName="stroke-dashoffset" values="120;-670" dur="3s" repeatCount="indefinite"/>
     </path>
-    <text x="450" y="408" text-anchor="middle" fill="#f4f6f8" font-size="11" letter-spacing="4">SHIP THE PRODUCT // EARN THE PODIUM</text>
+    <text x="450" y="366" text-anchor="middle" fill="#f4f6f8" font-size="11" letter-spacing="4">BUILT TO SOLVE // BUILT TO SHIP</text>
   </g>
 </svg>

@@ -1,17 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="230" viewBox="0 0 1280 230" role="img" aria-labelledby="title desc">
-  <title id="title">Saad Rimeh animated pit board</title>
-  <desc id="desc">A Formula One pit board showing the current project, availability, timezone, and collaboration status.</desc>
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="260" viewBox="0 0 1280 260" role="img" aria-labelledby="title desc">
+  <title id="title">Saad Rimeh driver telemetry</title>
+  <desc id="desc">A Formula One inspired engineering identity card showing Saad Rimeh's role, availability, location, and product focus.</desc>
   <defs>
-    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#11151b" />
-      <stop offset="1" stop-color="#080a0d" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#11161d" />
+      <stop offset="1" stop-color="#080a0e" />
     </linearGradient>
-    <linearGradient id="scan" x1="0" x2="1">
-      <stop stop-color="#ff3045" stop-opacity="0" />
-      <stop offset=".5" stop-color="#ff3045" />
-      <stop offset="1" stop-color="#ff3045" stop-opacity="0" />
+    <linearGradient id="identity" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#181f29" />
+      <stop offset="1" stop-color="#10151c" />
     </linearGradient>
-    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff3045" />
+      <stop offset="1" stop-color="#ff6b79" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#202731" stroke-width="1" />
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="5" result="b" />
       <feMerge>
         <feMergeNode in="b" />
@@ -19,36 +26,55 @@
       </feMerge>
     </filter>
   </defs>
-  <rect width="1280" height="230" rx="14" fill="url(#panel)" />
-  <rect x="1" y="1" width="1278" height="228" rx="13" fill="none" stroke="#29303b" />
-  <path d="M30 55H1250M30 180H1250" stroke="#262d37" />
-  <path d="M270 55V180M540 55V180M810 55V180M1080 55V180" stroke="#262d37" />
+  <rect width="1280" height="260" rx="18" fill="url(#bg)" />
+  <rect width="1280" height="260" rx="18" fill="url(#grid)" opacity=".34" />
+  <rect x="1" y="1" width="1278" height="258" rx="17" fill="none" stroke="#2a323d" />
+  <path d="M0 18V0H18M1262 0h18v18M0 242v18h18M1262 260h18v-18" fill="none" stroke="#ff3045" stroke-width="2" />
   <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-    <text x="30" y="34" fill="#f4f6f8" font-size="13" font-weight="700" letter-spacing="4">PIT WALL // LIVE SESSION</text>
-    <circle cx="1070" cy="29" r="5" fill="#43f0b0" filter="url(#glow)"></circle>
-    <text x="1088" y="34" fill="#43f0b0" font-size="11" letter-spacing="3">CONNECTED</text>
-    <text x="1250" y="34" text-anchor="end" fill="#717b8b" font-size="11" letter-spacing="2">SR-01</text>
-    <text x="30" y="82" fill="#727c8c" font-size="10" letter-spacing="3">CURRENT LAP</text>
-    <text x="30" y="128" fill="#ff3045" font-size="30" font-weight="800">SKILLIUM</text>
-    <text x="30" y="155" fill="#c7ccd4" font-size="11" letter-spacing="2">P06 // EDTECH</text>
-    <text x="300" y="82" fill="#727c8c" font-size="10" letter-spacing="3">AVAILABILITY</text>
-    <text x="300" y="128" fill="#f4f6f8" font-size="30" font-weight="800">OPEN</text>
-    <text x="300" y="155" fill="#43f0b0" font-size="11" letter-spacing="2">FREELANCE &amp; COLLAB</text>
-    <text x="570" y="82" fill="#727c8c" font-size="10" letter-spacing="3">TIMEZONE</text>
-    <text x="570" y="128" fill="#f4f6f8" font-size="30" font-weight="800">UTC+3</text>
-    <text x="570" y="155" fill="#c7ccd4" font-size="11" letter-spacing="2">SYRIA // REMOTE</text>
-    <text x="840" y="82" fill="#727c8c" font-size="10" letter-spacing="3">STATUS</text>
-    <text x="840" y="128" fill="#f4f6f8" font-size="30" font-weight="800">READY</text>
-    <text x="840" y="155" fill="#43f0b0" font-size="11" letter-spacing="2">TO COLLABORATE</text>
-    <text x="1110" y="82" fill="#727c8c" font-size="10" letter-spacing="3">SESSION</text>
-    <g fill="#f4f6f8" font-size="24" font-weight="700">
-      <text x="1110" y="126">00:00.000</text>
-      <text x="1110" y="126" opacity="0">00:07.512</text>
-      <text x="1110" y="126" opacity="0">00:16.240</text>
+    <text x="28" y="34" fill="#f4f6f8" font-size="12" font-weight="800" letter-spacing="4">DRIVER TELEMETRY // SR-01</text>
+    <circle cx="1132" cy="29" r="5" fill="#43f0b0" filter="url(#glow)"></circle>
+    <text x="1148" y="34" fill="#43f0b0" font-size="10" letter-spacing="3">AVAILABLE</text>
+    <g transform="translate(28 58)">
+      <rect width="500" height="164" rx="14" fill="url(#identity)" stroke="#343e4b" />
+      <path d="M0 14Q0 0 14 0H500" fill="none" stroke="url(#accent)" stroke-width="3" />
+      <circle cx="77" cy="82" r="50" fill="#0b0f14" stroke="#343e4b" stroke-width="2" />
+      <circle cx="77" cy="82" r="41" fill="none" stroke="#ff3045" stroke-width="3" stroke-dasharray="72 188" filter="url(#glow)"></circle>
+      <text x="77" y="93" text-anchor="middle" fill="#f4f6f8" font-size="34" font-weight="900">01</text>
+      <text x="150" y="48" fill="#ff5366" font-size="10" font-weight="700" letter-spacing="3">MOBILE + FULL-STACK ENGINEER</text>
+      <text x="150" y="88" fill="#f4f6f8" font-size="31" font-weight="900">SAAD RIMEH</text>
+      <text x="150" y="118" fill="#9da7b6" font-size="12" letter-spacing="1">REACT NATIVE · TYPESCRIPT · NODE.JS</text>
+      <rect x="150" y="136" width="216" height="5" rx="3" fill="#272f3a" />
+      <rect x="150" y="136" width="150" height="5" rx="3" fill="url(#accent)"></rect>
     </g>
-    <text x="1110" y="155" fill="#c7ccd4" font-size="11" letter-spacing="2">GREEN FLAG</text>
-    <text x="30" y="210" fill="#697384" font-size="10" letter-spacing="3">BUILD • SHIP • REFINE</text>
-    <text x="1250" y="210" text-anchor="end" fill="#697384" font-size="10" letter-spacing="3">PRECISION UNDER PRESSURE</text>
+    <g transform="translate(550 58)">
+      <rect width="220" height="164" rx="14" fill="#10151c" stroke="#2d3540" />
+      <text x="20" y="32" fill="#6f7989" font-size="9" letter-spacing="3">AVAILABILITY</text>
+      <text x="20" y="77" fill="#f4f6f8" font-size="28" font-weight="900">OPEN</text>
+      <circle cx="196" cy="68" r="8" fill="#43f0b0" filter="url(#glow)" />
+      <path d="M20 104H200" stroke="#29313b" />
+      <text x="20" y="132" fill="#43f0b0" font-size="10" letter-spacing="2">FREELANCE</text>
+      <text x="20" y="151" fill="#8993a2" font-size="9" letter-spacing="2">COLLABORATION</text>
+    </g>
+    <g transform="translate(790 58)">
+      <rect width="220" height="164" rx="14" fill="#10151c" stroke="#2d3540" />
+      <text x="20" y="32" fill="#6f7989" font-size="9" letter-spacing="3">BASE</text>
+      <text x="20" y="77" fill="#f4f6f8" font-size="28" font-weight="900">UTC+3</text>
+      <path d="M174 55l12 12-12 12-12-12z" fill="none" stroke="#ff3045" stroke-width="2" />
+      <circle cx="174" cy="67" r="3" fill="#ff3045" filter="url(#glow)" />
+      <path d="M20 104H200" stroke="#29313b" />
+      <text x="20" y="132" fill="#ff5366" font-size="10" letter-spacing="2">SYRIA</text>
+      <text x="20" y="151" fill="#8993a2" font-size="9" letter-spacing="2">REMOTE READY</text>
+    </g>
+    <g transform="translate(1030 58)">
+      <rect width="222" height="164" rx="14" fill="#10151c" stroke="#2d3540" />
+      <text x="20" y="32" fill="#6f7989" font-size="9" letter-spacing="3">BUILD MODE</text>
+      <text x="20" y="77" fill="#f4f6f8" font-size="28" font-weight="900">ACTIVE</text>
+      <path d="M180 52v31M167 66h26" stroke="#ff3045" stroke-width="3" stroke-linecap="round" filter="url(#glow)" />
+      <path d="M20 104H202" stroke="#29313b" />
+      <text x="20" y="132" fill="#ff5366" font-size="10" letter-spacing="2">PRODUCTS</text>
+      <text x="20" y="151" fill="#8993a2" font-size="9" letter-spacing="2">MOBILE · WEB · DESKTOP</text>
+    </g>
+    <path d="M28 240H1252" stroke="#272f39" />
+    <path d="M28 240H1252" stroke="#ff3045" stroke-width="3" stroke-linecap="round" stroke-dasharray="140 1084"></path>
   </g>
-  <rect x="0" y="178" width="180" height="2" fill="url(#scan)"></rect>
 </svg>

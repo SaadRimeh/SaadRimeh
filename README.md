@@ -33,7 +33,7 @@ to the APIs, data models, and deployment systems running under the bodywork.
   <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="./assets/pit-board-mobile-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/pit-board-static.svg">
   <source media="(max-width: 640px)" srcset="./assets/pit-board-mobile.svg">
-  <img src="./assets/pit-board.svg" alt="Formula One pit board showing current project, availability, timezone, and collaboration status" width="100%">
+  <img src="./assets/pit-board.svg" alt="Formula One driver telemetry card showing Saad Rimeh's engineering profile, availability, location, and product focus" width="100%">
 </picture>
 
 <br>
@@ -83,17 +83,16 @@ I'm **Saad Rimeh**, a mobile and full-stack developer focused on useful products
 
 <div align="center">
 
-### Featured podium
+### Featured projects
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="./assets/project-podium-static.svg">
-  <img src="./assets/project-podium.svg" alt="Featured project podium with Skillium, RuScholar TMA, and JS Nexus" width="100%">
+  <img src="./assets/project-podium.svg" alt="Three equally featured projects: RuScholar TMA, JS Nexus, and Skillium" width="100%">
 </picture>
 
-[![Skillium Live](https://img.shields.io/badge/1ST_SKILLIUM-LIVE-FFCF45?style=for-the-badge&labelColor=171B23)](https://portfolio-lime-eight-cb5c5ameei.vercel.app/)
-[![Skillium Showcase](https://img.shields.io/badge/VIEW-SHOWCASE-149DD7?style=for-the-badge&labelColor=171B23)](https://github.com/SaadRimeh/skillium-showcase)
-[![RuScholar](https://img.shields.io/badge/2ND_RUSCHOLAR-LIVE-C0C7D2?style=for-the-badge&labelColor=171B23)](https://ru-scholar-tma.vercel.app)
-[![JS Nexus](https://img.shields.io/badge/3RD_JS_NEXUS-CODE-C98955?style=for-the-badge&labelColor=171B23)](https://github.com/SaadRimeh/Js-Nexus)
+[![RuScholar](https://img.shields.io/badge/RUSCHOLAR-LIVE-FF3045?style=for-the-badge&labelColor=171B23)](https://ru-scholar-tma.vercel.app)
+[![JS Nexus](https://img.shields.io/badge/JS_NEXUS-CODE-FF3045?style=for-the-badge&labelColor=171B23)](https://github.com/SaadRimeh/Js-Nexus)
+[![Skillium](https://img.shields.io/badge/SKILLIUM-SHOWCASE-FF3045?style=for-the-badge&labelColor=171B23)](https://github.com/SaadRimeh/skillium-showcase)
 
 <br>
 
@@ -231,7 +230,7 @@ A full-stack finance app for tracking income, expenses, categories, and account 
 
 > **Learning, structured for progress.**
 
-A full-featured educational platform for managing academic content, courses, lectures, assessments, and student–tutor meetings through multi-role authorization. Sequential learning rules control lesson access based on exam outcomes, with retry workflows after failed results, secure private meeting links for every student, and documented REST APIs supporting web, mobile, and administrative applications.
+A multi-role educational platform for curricula, courses, assessments, progression-based lesson access, retry workflows, secure student–tutor meetings, and documented REST APIs.
 
 `Multi-role Authorization` `Sequential Learning` `Assessments` `Retry Workflows` `Private Meetings` `REST APIs`
 

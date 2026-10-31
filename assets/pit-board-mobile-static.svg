@@ -1,17 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
-  <title id="title">Mobile pit board</title>
-  <desc id="desc">A mobile-optimized Formula One pit board showing the current project and collaboration status.</desc>
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="560" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+  <title id="title">Saad Rimeh mobile driver telemetry</title>
+  <desc id="desc">A mobile Formula One inspired engineering identity card showing Saad Rimeh's role, availability, location, and product focus.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#11161d" />
-      <stop offset="1" stop-color="#080a0d" />
+      <stop offset="1" stop-color="#080a0e" />
     </linearGradient>
-    <linearGradient id="scan" x1="0" x2="1">
-      <stop stop-color="#ff3045" stop-opacity="0" />
-      <stop offset=".5" stop-color="#ff3045" />
-      <stop offset="1" stop-color="#ff3045" stop-opacity="0" />
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#181f29" />
+      <stop offset="1" stop-color="#10151c" />
     </linearGradient>
-    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#ff3045" />
+      <stop offset="1" stop-color="#ff6b79" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#202731" stroke-width="1" />
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="5" result="b" />
       <feMerge>
         <feMergeNode in="b" />
@@ -19,34 +26,49 @@
       </feMerge>
     </filter>
   </defs>
-  <rect width="720" height="520" rx="18" fill="url(#bg)" />
-  <rect x="1" y="1" width="718" height="518" rx="17" fill="none" stroke="#2a313c" />
-  <path d="M24 72H696M360 72V412M24 242H696M24 412H696" stroke="#29303b" />
+  <rect width="720" height="560" rx="18" fill="url(#bg)" />
+  <rect width="720" height="560" rx="18" fill="url(#grid)" opacity=".34" />
+  <rect x="1" y="1" width="718" height="558" rx="17" fill="none" stroke="#2a323d" />
+  <path d="M0 18V0H18M702 0h18v18M0 542v18h18M702 560h18v-18" fill="none" stroke="#ff3045" stroke-width="2" />
   <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-    <text x="24" y="36" fill="#f4f6f8" font-size="16" font-weight="800" letter-spacing="3">PIT WALL // MOBILE</text>
-    <circle cx="570" cy="31" r="6" fill="#43f0b0" filter="url(#glow)"></circle>
-    <text x="590" y="37" fill="#43f0b0" font-size="12" letter-spacing="2">LIVE</text>
-    <text x="30" y="112" fill="#737d8d" font-size="12" letter-spacing="3">CURRENT LAP</text>
-    <text x="30" y="164" fill="#ff3045" font-size="36" font-weight="900">SKILLIUM</text>
-    <text x="30" y="199" fill="#c5cbd4" font-size="13" letter-spacing="2">P06 // EDTECH</text>
-    <text x="390" y="112" fill="#737d8d" font-size="12" letter-spacing="3">AVAILABILITY</text>
-    <text x="390" y="164" fill="#f4f6f8" font-size="36" font-weight="900">OPEN</text>
-    <text x="390" y="199" fill="#43f0b0" font-size="13" letter-spacing="2">FREELANCE &amp; COLLAB</text>
-    <text x="30" y="282" fill="#737d8d" font-size="12" letter-spacing="3">TIMEZONE</text>
-    <text x="30" y="334" fill="#f4f6f8" font-size="36" font-weight="900">UTC+3</text>
-    <text x="30" y="369" fill="#c5cbd4" font-size="13" letter-spacing="2">SYRIA // REMOTE</text>
-    <text x="390" y="282" fill="#737d8d" font-size="12" letter-spacing="3">STATUS</text>
-    <text x="390" y="334" fill="#f4f6f8" font-size="36" font-weight="900">READY</text>
-    <text x="390" y="369" fill="#43f0b0" font-size="13" letter-spacing="2">TO COLLABORATE</text>
-    <text x="24" y="454" fill="#737d8d" font-size="11" letter-spacing="3">SESSION</text>
-    <g fill="#f4f6f8" font-size="20" font-weight="700">
-      <text x="126" y="455">00:00.000</text>
-      <text x="126" y="455" opacity="0">00:07.512</text>
-      <text x="126" y="455" opacity="0">00:16.240</text>
+    <text x="24" y="36" fill="#f4f6f8" font-size="13" font-weight="800" letter-spacing="3">DRIVER TELEMETRY // SR-01</text>
+    <circle cx="614" cy="31" r="5" fill="#43f0b0" filter="url(#glow)"></circle>
+    <text x="630" y="36" fill="#43f0b0" font-size="10" letter-spacing="2">OPEN</text>
+    <g transform="translate(24 64)">
+      <rect width="672" height="188" rx="14" fill="url(#card)" stroke="#343e4b" />
+      <path d="M0 14Q0 0 14 0H672" fill="none" stroke="url(#accent)" stroke-width="3" />
+      <circle cx="92" cy="94" r="58" fill="#0b0f14" stroke="#343e4b" stroke-width="2" />
+      <circle cx="92" cy="94" r="47" fill="none" stroke="#ff3045" stroke-width="3" stroke-dasharray="82 214" filter="url(#glow)"></circle>
+      <text x="92" y="107" text-anchor="middle" fill="#f4f6f8" font-size="40" font-weight="900">01</text>
+      <text x="180" y="55" fill="#ff5366" font-size="11" font-weight="700" letter-spacing="3">MOBILE + FULL-STACK</text>
+      <text x="180" y="102" fill="#f4f6f8" font-size="38" font-weight="900">SAAD RIMEH</text>
+      <text x="180" y="137" fill="#9da7b6" font-size="13" letter-spacing="1">TYPESCRIPT · REACT NATIVE · NODE.JS</text>
+      <rect x="180" y="158" width="430" height="6" rx="3" fill="#272f3a" />
+      <rect x="180" y="158" width="280" height="6" rx="3" fill="url(#accent)"></rect>
     </g>
-    <text x="696" y="455" text-anchor="end" fill="#43f0b0" font-size="11" letter-spacing="3">GREEN FLAG</text>
-    <text x="24" y="496" fill="#697384" font-size="10" letter-spacing="2">BUILD • SHIP • REFINE</text>
-    <text x="696" y="496" text-anchor="end" fill="#697384" font-size="10" letter-spacing="2">SR-01</text>
+    <g transform="translate(24 274)">
+      <rect width="324" height="112" rx="12" fill="#10151c" stroke="#2d3540" />
+      <text x="18" y="30" fill="#6f7989" font-size="9" letter-spacing="3">AVAILABILITY</text>
+      <text x="18" y="72" fill="#f4f6f8" font-size="27" font-weight="900">OPEN</text>
+      <circle cx="288" cy="60" r="8" fill="#43f0b0" filter="url(#glow)" />
+      <text x="18" y="94" fill="#43f0b0" font-size="9" letter-spacing="2">FREELANCE + COLLAB</text>
+    </g>
+    <g transform="translate(372 274)">
+      <rect width="324" height="112" rx="12" fill="#10151c" stroke="#2d3540" />
+      <text x="18" y="30" fill="#6f7989" font-size="9" letter-spacing="3">BASE</text>
+      <text x="18" y="72" fill="#f4f6f8" font-size="27" font-weight="900">UTC+3</text>
+      <path d="M284 47l12 12-12 12-12-12z" fill="none" stroke="#ff3045" stroke-width="2" />
+      <circle cx="284" cy="59" r="3" fill="#ff3045" filter="url(#glow)" />
+      <text x="18" y="94" fill="#ff5366" font-size="9" letter-spacing="2">SYRIA · REMOTE READY</text>
+    </g>
+    <g transform="translate(24 408)">
+      <rect width="672" height="112" rx="12" fill="#10151c" stroke="#2d3540" />
+      <text x="18" y="30" fill="#6f7989" font-size="9" letter-spacing="3">BUILD MODE</text>
+      <text x="18" y="72" fill="#f4f6f8" font-size="27" font-weight="900">PRODUCT ENGINEERING</text>
+      <text x="18" y="94" fill="#ff5366" font-size="9" letter-spacing="2">MOBILE · WEB · DESKTOP</text>
+      <text x="636" y="72" text-anchor="end" fill="#43f0b0" font-size="12" letter-spacing="2">ACTIVE</text>
+    </g>
+    <path d="M24 540H696" stroke="#272f39" />
+    <path d="M24 540H696" stroke="#ff3045" stroke-width="3" stroke-linecap="round" stroke-dasharray="100 572"></path>
   </g>
-  <rect x="0" y="410" width="160" height="2" fill="url(#scan)"></rect>
 </svg>

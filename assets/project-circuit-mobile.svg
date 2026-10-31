@@ -33,11 +33,11 @@
     <g transform="translate(74 372)"><rect width="310" height="76" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="76" rx="3" fill="#ff3045"/><text x="26" y="29" fill="#ff3045" font-size="13" letter-spacing="2">P03 // LOCAL-FIRST</text><text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">Wateera</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="4s" repeatCount="indefinite"/></g>
     <g transform="translate(330 560)"><rect width="330" height="76" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="76" rx="3" fill="#ff3045"/><text x="26" y="29" fill="#ff3045" font-size="13" letter-spacing="2">P04 // BOOKING</text><text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">Salloum Barbershop</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="6s" repeatCount="indefinite"/></g>
     <g transform="translate(70 754)"><rect width="330" height="76" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="76" rx="3" fill="#ff3045"/><text x="26" y="29" fill="#ff3045" font-size="13" letter-spacing="2">P05 // FINTECH</text><text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">React Native Wallet</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="8s" repeatCount="indefinite"/></g>
-    <g transform="translate(320 970)"><rect width="320" height="82" rx="9" fill="#101820" stroke="#967d2b"/><rect width="7" height="82" rx="3" fill="#ffcf45"/><text x="26" y="31" fill="#ffcf45" font-size="13" letter-spacing="2">P06 // EDTECH</text><text x="26" y="62" fill="#f4f6f8" font-size="24" font-weight="900">Skillium</text><animate attributeName="opacity" values=".65;1;.65" dur="12s" begin="10s" repeatCount="indefinite"/></g>
+    <g transform="translate(320 970)"><rect width="320" height="82" rx="9" fill="#0d1117" stroke="#3a424e"/><rect width="7" height="82" rx="3" fill="#ff3045"/><text x="26" y="31" fill="#ff3045" font-size="13" letter-spacing="2">P06 // EDTECH</text><text x="26" y="62" fill="#f4f6f8" font-size="24" font-weight="800">Skillium</text><animate attributeName="opacity" values=".58;1;.58" dur="12s" begin="10s" repeatCount="indefinite"/></g>
   </g>
 
   <g fill="#0b0e12" stroke="#ff3045" stroke-width="4">
-    <circle cx="112" cy="150" r="10"/><circle cx="590" cy="260" r="10"/><circle cx="125" cy="398" r="10"/><circle cx="602" cy="590" r="10"/><circle cx="112" cy="790" r="10"/><circle cx="602" cy="1005" r="11" stroke="#ffcf45"/>
+    <circle cx="112" cy="150" r="10"/><circle cx="590" cy="260" r="10"/><circle cx="125" cy="398" r="10"/><circle cx="602" cy="590" r="10"/><circle cx="112" cy="790" r="10"/><circle cx="602" cy="1005" r="10"/>
   </g>
 
   <g filter="url(#glow)">

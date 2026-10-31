@@ -67,10 +67,10 @@
       <text x="26" y="58" fill="#f4f6f8" font-size="22" font-weight="800">React Native Wallet</text>
     </g>
     <g transform="translate(320 970)">
-      <rect width="320" height="82" rx="9" fill="#101820" stroke="#967d2b" />
-      <rect width="7" height="82" rx="3" fill="#ffcf45" />
-      <text x="26" y="31" fill="#ffcf45" font-size="13" letter-spacing="2">P06 // EDTECH</text>
-      <text x="26" y="62" fill="#f4f6f8" font-size="24" font-weight="900">Skillium</text>
+      <rect width="320" height="82" rx="9" fill="#0d1117" stroke="#3a424e" />
+      <rect width="7" height="82" rx="3" fill="#ff3045" />
+      <text x="26" y="31" fill="#ff3045" font-size="13" letter-spacing="2">P06 // EDTECH</text>
+      <text x="26" y="62" fill="#f4f6f8" font-size="24" font-weight="800">Skillium</text>
     </g>
   </g>
   <g fill="#0b0e12" stroke="#ff3045" stroke-width="4">
@@ -79,7 +79,7 @@
     <circle cx="125" cy="398" r="10" />
     <circle cx="602" cy="590" r="10" />
     <circle cx="112" cy="790" r="10" />
-    <circle cx="602" cy="1005" r="11" stroke="#ffcf45" />
+    <circle cx="602" cy="1005" r="10" />
   </g>
   <g filter="url(#glow)" transform="translate(112 150)">
     <path d="M-22-11H-10L-5-6H9L16-3H25V3H16L9 6H-5L-10 11H-22V5H-12V-5H-22Z" fill="#ff3045" stroke="#ff8190" />
